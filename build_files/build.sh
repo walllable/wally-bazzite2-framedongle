@@ -16,7 +16,6 @@ cp -avf "/ctx/system_files"/. /
 dnf5 install -y dkms
 git clone https://github.com/morrownr/rtw89
 cd rtw89
-make cleanup_target_system
 dkms install $PWD
 make install_fw
 cp -v rtw89.conf /etc/modprobe.d/
