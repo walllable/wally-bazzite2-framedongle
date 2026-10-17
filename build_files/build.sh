@@ -13,7 +13,7 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-git clone -b torsten https://github.com/morrownr/rtw89
+git clone -b torsten https://github.com/tjhowse/rtw89/
 cd rtw89
 make clean modules && sudo make install
 make install_fw
