@@ -15,7 +15,7 @@ cp -avf "/ctx/system_files"/. /
 # this installs a package from fedora repos
 git clone -b torsten https://github.com/tjhowse/rtw89/
 cd rtw89
-make clean modules && sudo make install
+sudo make install
 make install_fw
 cp -v rtw89.conf /etc/modprobe.d/
 
